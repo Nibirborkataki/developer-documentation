@@ -102,11 +102,7 @@ To ensure everything is set up correctly, you can perform a dry run.
 
 1. Ensure your terminal shows the `(.venv)` prefix.
 2. Execute the main script:
-    ```
     
-    bash
-    
-    python main.py
-    ```
+    python main.
 
-1. You should see an output in the console starting with `Starting automation...` and eventually concluding with `All tasks completed!`. Check the `factsheets/` directory to verify that files are being downloaded.
+3. You should see an output in the console starting with `Starting automation...` and eventually concluding with `All tasks completed!`. Check the `factsheets/` directory to verify that files are being downloaded.
