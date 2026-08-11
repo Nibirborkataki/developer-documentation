@@ -9,9 +9,7 @@ Before you begin, ensure that your system meets the following requirements:
 * **Python 3.8 or higher**: The core programming language used for this script. You can verify if Python is installed by opening your terminal or command prompt and running:
 
 ```bash
-
 python --version
-
 ```
 
 * **Git (Optional but recommended)**: For cloning the repository and managing version control.
@@ -25,18 +23,14 @@ To avoid conflicts with other Python projects on your computer, it is highly rec
 Open your terminal (or Command Prompt / PowerShell on Windows) and navigate to the folder where the project is located:
 
 ```bash
-
 cd path/to/Fund_Manager_automation
-
 ```
 
 ### Step 2: Create a Virtual Environment
 
 Run the following command to create a new virtual environment named `.venv`:
 
-```
-bash
-
+```bash
 python -m venv .venv
 ```
 
@@ -48,24 +42,19 @@ You must activate the virtual environment every time you want to run or work on 
 
 - **On Windows (Command Prompt):**
     
-    ```
     ```cmd
-    
     .venv\Scripts\activate.bat
     ```
 
 - **On Windows (PowerShell):**
 
     ```powershell
-    
     .venv\Scripts\Activate.ps1
     ```
 
 - **On macOS and Linux:**
     
-    ```
-    bash
-    
+    ```bash
     source .venv/bin/activate
     ```
 
@@ -78,7 +67,6 @@ With the virtual environment activated, you need to install the project's third-
 Run the following command to install all required libraries from the `requirements.txt` file:
 
 ```bash
-
 pip install -r requirements.txt
 ```
 ## 2.4 Setting Up Playwright Browsers
@@ -87,8 +75,7 @@ Because this project uses **Playwright** to interact with websites exactly as 
 
 Run the following command in your terminal (make sure your `.venv` is still active):
 
-```
-bash
+```bash
 playwright install
 ```
 
