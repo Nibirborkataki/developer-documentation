@@ -89,10 +89,8 @@ Run the following command in your terminal (make sure your `.venv` is still ac
 
 ```
 bash
-
 playwright install
 ```
-
 
 _Note: This step might take a few minutes as it downloads several hundred megabytes of browser files. You only need to do this once._
 
@@ -101,8 +99,6 @@ _Note: This step might take a few minutes as it downloads several hundred megaby
 To ensure everything is set up correctly, you can perform a dry run.
 
 1. Ensure your terminal shows the `(.venv)` prefix.
-2. Execute the main script:
-    
-    python main.
-
+2. Execute the main script:  ```
+   python main.py```
 3. You should see an output in the console starting with `Starting automation...` and eventually concluding with `All tasks completed!`. Check the `factsheets/` directory to verify that files are being downloaded.
