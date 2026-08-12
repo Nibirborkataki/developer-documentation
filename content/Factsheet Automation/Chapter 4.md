@@ -484,7 +484,7 @@ AMC 5 ✓
 This significantly improves the reliability of the overall process.
 
 
-## 4.11 Complete End-to-End Workflow
+## 4.10 Complete End-to-End Workflow
 
 Putting all the components together, the complete lifecycle looks like this:
 
@@ -536,7 +536,7 @@ Putting all the components together, the complete lifecycle looks like this:
 
 
 
-## 4.12 Summary
+## 4.11 Summary
 
 The core workflow separates **orchestration** from **implementation**.
 
