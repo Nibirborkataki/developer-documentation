@@ -1,8 +1,10 @@
+# The Core Workflow
+
 ## 4.1 Introduction
 
 The factsheet download Automation follows a structured workflow in which each component has a specific responsibility.
 
-The overall process is controlled by `main.oy`, while the actual website interaction and document retrieval logic is handled by the individual modules inside the `sites/` directory.
+The overall process is controlled by `main.py`, while the actual website interaction and document retrieval logic is handled by the individual modules inside the `sites/` directory.
 
 This separation is important because every AMC website can have a different structure and may require a different approach for locating and downloading factsheet.
 
