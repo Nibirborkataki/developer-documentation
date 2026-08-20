@@ -1,8 +1,7 @@
 
 # Troubleshooting & Maintenance
 
-
-## ## 7.1 Overview
+## 7.1 Overview
 
 The Factsheet Download Automation system depends on multiple external AMC websites, browser automation, server configuration, and local file storage. Because of these dependencies, certain issues may occur when running the automation in a production or scheduled environment.
 
